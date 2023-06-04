@@ -1,0 +1,37 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: orange;
+    font-size: 3vw;
+}
+
+body{
+    background-color: aqua;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+}
+
+a {
+    background-color: white;
+    font-family: "Copperplate", fantasy;
+    font-size: 2vw;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: orange;
+}
+
+div{
+    border-style: ridge;
+    border-color: orange;
+    margin-right: 45%;
+    margin-left: 45%;
+}
