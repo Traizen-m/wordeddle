@@ -1,11 +1,11 @@
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: orange;
+    background-color: rgb(35, 88, 31);
     font-size: 3vw;
 }
 
 body{
-    background-color: aqua;
+    background-color: darkgray;
 }
 
 p{
@@ -22,16 +22,16 @@ a {
 }
 
 a:link {
-    color: orange;
+    color: darkgrey;
 }
 
 a:visited {
-    color: orange;
+    color: darkblue;
 }
 
 div{
     border-style: ridge;
-    border-color: orange;
+    border-color: darkgray;
     margin-right: 45%;
     margin-left: 45%;
 }
