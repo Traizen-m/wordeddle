@@ -11,7 +11,7 @@ async function scrapeGame(url){
     //console.log({rawTxt});
 
     browser.close();
-    document.getElementById('wordleScrape').innerHTML(rawTxt);
+    document.getElementById('wordleScrape').innerHTML('testing');
 }
 
 scrapeGame('https://www.nytimes.com/games/wordle/index.html');
