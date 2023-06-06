@@ -4,6 +4,7 @@
         <link href="styles/indexStyle.css" 
             rel="stylesheet" 
             type="text/css"/>
+            <script src="scraper.js"></script>
 			<title> WORDEDDLE </title>
         <center>
             <h1>Wordeddle Score Keeper</h1>
@@ -21,6 +22,8 @@
                 <a href="https://contexto.me/">Contexto</a> <br><br>
                 <a href="https://poeltl.dunk.town/">Poetl</a> <br><br>
             </div>
+            <button onclick="scrapeGame('https://www.nytimes.com/games/wordle/index.html')">Scrape Wordle</button>
+            <strong id="wordleScrape"></strong> 
         </center>
     </body>
 </html>
