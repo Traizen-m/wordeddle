@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 
 async function scrapeGame(url){
+    document.getElementById('wordleScrape').innerHTML("testing");
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto(url);
@@ -11,7 +12,6 @@ async function scrapeGame(url){
     //console.log({rawTxt});
 
     browser.close();
-    document.getElementById('wordleScrape').innerHTML('testing');
 }
 
 scrapeGame('https://www.nytimes.com/games/wordle/index.html');
