@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+//const puppeteer = require('puppeteer');
 
 async function scrapeGame(url){
     document.getElementById('wordleScrape').innerHTML("testing");
@@ -14,7 +14,7 @@ async function scrapeGame(url){
     browser.close();
 }
 
-function printMessage(){
+function printMessage() {
     document.getElementById('wordleScrape').innerHTML("testing");
 }
 scrapeGame('https://www.nytimes.com/games/wordle/index.html');
